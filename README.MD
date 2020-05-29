@@ -1,4 +1,5 @@
-### Open Finite Element Method: Introduction
+Introduction
+======
 OFEM or Open FEM is a personal project of mine in my journey of studying FEM for structural engineering. It's basically a practical c++ implementation from textbook FEM derivations found in textbooks which are purely mathematical/theoritical on their own.
  
 OFEM doesn't reinvent the wheel. it uses Eigen library to for underlying linear algebra calculations and sparse matrices implementation.
