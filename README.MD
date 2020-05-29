@@ -29,4 +29,4 @@ Input files must be in format of:
 Sample input files are included the repositery.
 
 ## Binary
-[Window x86_64](https://github.com/haz93/OFEM/releases/download/0.1/OFEM-0.1-test.zip)
+[Windows x86_64](https://github.com/haz93/OFEM/releases/download/0.1/OFEM-0.1-test.zip)
