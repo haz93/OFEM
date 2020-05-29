@@ -1,5 +1,5 @@
 ### Open Finite Element Method: Introduction
-OFEM or Open FEM is a personal project of mine in my journey of studying FEM for structural engineering. It's basically a practical c++ impelmentation from textbook FEM derivations found in textbooks which are purely mathematical/theoritical on their own.
+OFEM or Open FEM is a personal project of mine in my journey of studying FEM for structural engineering. It's basically a practical c++ implementation from textbook FEM derivations found in textbooks which are purely mathematical/theoritical on their own.
  
 OFEM doesn't reinvent the wheel. it uses Eigen library to for underlying linear algebra calculations and sparse matrices implementation.
 SFML, specifically SF::Graphics is used as a 2D graphics library for some basic drawing and interaction with mesh. This is to avoid getting into the hassle of learning openGL to write a 2D graphics engine from scratch.
@@ -27,7 +27,7 @@ Input files must be in format of:
   
 **Node numbering must start from 0, i.e. the first node has to have a 0 index when defining elements**
  
-Sample input files are included the repositery. As it is obvious from input parameters, OFEM does not include a meshing algorithim. You can draw whatever polygon you'd like analysed on autocad, export nodes co ordinates and lines starting x and ys and ending x and ys into excel, format them into .node and .poly files and use them as inputs for a meshing tool such as [Triangles](https://www.cs.cmu.edu/~quake/triangle.html)
+Sample input files are included the repository. As it is obvious from input parameters, OFEM does not include a meshing algorithm. You can draw whatever polygon you'd like analyzed on autocad, export nodes co ordinates and lines starting x and ys and ending x and ys into excel, format them into .node and .poly files and use them as inputs for a meshing tool such as [Triangles](https://www.cs.cmu.edu/~quake/triangle.html)
 then use the output .node output and .ele files as input to OFEM after reformatting them.
  
 This is obviously as gigantic hassle and will be changed in future releases.
