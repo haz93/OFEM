@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{11e51b2e-9770-498a-aad7-e7e6181be21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{55e2333a-0ea9-4f42-a228-9751b12f4fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sample inputs">
+      <UniqueIdentifier>{099fee61-fcb8-462c-b4c8-eb32e7a64a40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StandardCursor.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Display.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.MD" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\input.txt">
+      <Filter>Source Files\Sample inputs</Filter>
+    </Text>
+    <Text Include="..\..\..\input33.txt">
+      <Filter>Source Files\Sample inputs</Filter>
+    </Text>
+    <Text Include="..\..\..\input44.txt">
+      <Filter>Source Files\Sample inputs</Filter>
+    </Text>
+    <Text Include="..\..\..\input55.txt">
+      <Filter>Source Files\Sample inputs</Filter>
+    </Text>
+    <Text Include="..\..\..\output.txt">
+      <Filter>Source Files\Sample inputs</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
