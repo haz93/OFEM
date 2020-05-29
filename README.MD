@@ -33,7 +33,9 @@ then use the output .node output and .ele files as input to OFEM after reformatt
  
 This is obviously as gigantic hassle and will be changed in future releases.
 ## Output
-Output files contains displacement vector. The model displays the original and displaced mesh along with a color contour of element stresses in x-direction. This is for debugging only and you can customize whatever output you want to see written to file by looking into engine.cpp and controlling what output window displays by modifying the call to the display instance. 
+Output file contains displacement vector. The model displays the original and displaced mesh along with a color contour of element stresses in x-direction. This is for debugging only and you can customize whatever output you want to see written to file by looking into engine.cpp and controlling what output window displays by modifying the call to the display instance. 
+
+Use middle mouse button to pan and zoom across drawing space.
 
 ## Binary
 [Windows x86_64](https://github.com/haz93/OFEM/releases/download/0.1/OFEM-0.1-test.zip)
