@@ -25,9 +25,11 @@ Input files must be in format of:
 <node #> <load in x> <load in y>
 ```
   
-**Node numbering must start from 0, i.e. the first node has to have a 0 index.**
+**Node numbering must start from 0, i.e. the first node has to have a 0 index when defining elements**
 Sample input files are included the repositery. As it is obvious from input parameters, OFEM does not include a meshing algorithim. You can draw whatever polygon you'd like analysed on autocad, export nodes co ordinates and lines starting x&y and ending x&y into excel, format them into .node and .poly files and use them as inputs for a meshing tool such as [Triangles](https://www.cs.cmu.edu/~quake/triangle.html)
 then use the output .node output and .ele files as input to OFEM after reformatting them.
+
+This is obviously as gigantic hassle and will be changed in future releases.
 ## Output
 Output files contains displacement vector. The model displays the original and displaced mesh along with a color contour of element stresses in x-direction. This is for debugging only and you can customize whatever output you want to see written to file by looking into engine.cpp and controlling what output window displays by modifying the call to the display instance. 
 
