@@ -4,22 +4,20 @@ SFML, specifically SF::Graphics is used as a 2D graphics library for some basic 
 Currently I've had time to implement 2D plane-strain 3-noded triangle elements. Mutli-noded plane strain elements, 2D truss and beam elements should be added in the near future as these are fairly simple and I just need the free time to do so.
 Future goals include implementing 2D plate/shell elements and possibly non-linear large deformations. Also migrating from SFML to a more mainstream option such as QTwidgets since SFML is not cross platform friendly and feature rich as QT.
 
-usage is OFEM.exe <inputfile.txt>
+usage is OFEM.exe <inputfile> <outputfile>
 
 Input files must be in format of:
-
+```
 <poisson's ration> <modulus of elasticity>
 <number of nodes>
 <node x cord> <node y cord>
-...
 <number of elements>
 <first node #> <second node #> <third node #>
-... 
 <number of supports>
 <node #> <2 for x constraint, 3 for both x&y constraints>
-...
 <number of loads>
 <node #> <load in x> <load in y>
+```
   
 Node numbering must start from 0, i.e. the first node has to have a 0 index.
 Sample input files are included the repositery.
