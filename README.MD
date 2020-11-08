@@ -3,7 +3,7 @@ Introduction
 OFEM or Open FEM is a personal project of mine in my journey of studying FEM for structural engineering. It's a practical C++ implementation from textbook FEM derivations found in textbooks, which are purely mathematical/theoretical on their own.
  
 OFEM doesn't reinvent the wheel. It uses the Eigen library for underlying linear algebra calculations and sparse matrices implementation.
-SFML, specifically SF::Graphics is used as a 2D graphics library for some basic drawing and interaction with mesh. This is to avoid getting into the hassle of learning OpenGL to write a 2D graphics engine from scratch and out of scope from what I want to know.
+SFML, specifically SF::Graphics is used as a 2D graphics library for some basic drawing and interaction with mesh. This is to avoid getting into the hassle of learning OpenGL to write a 2D graphics engine from scratch and is not the purpose of OFEM.
  
 Currently, I've had time to implement only 2D plane-strain 3-noded triangle elements during the COVID19 lockdown. Multi-noded plane strain elements, 2D truss, and beam elements should be added in the near future as these are relatively simple, and I need the free time to do so.
 Future goals include implementing 2D plate/shell elements and possibly non-linear large deformations. Also, migrating from SFML to a more mainstream option such as QTwidgets since SFML is not cross-platform friendly and feature-rich as QT.
